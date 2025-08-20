@@ -279,7 +279,7 @@
           }
         }
       },
-      "DotNetNuke.Core/7.4.0.353": {
+      "DotNetNuke.Core/7.4.0.280": {
         "type": "package",
         "compile": {
           "lib/net40/DotNetNuke.dll": {},
@@ -431,7 +431,7 @@
           }
         }
       },
-      "Kentico.Xperience.Libraries/13.0.173": {
+      "Kentico.Xperience.Libraries/13.0.178": {
         "type": "package",
         "dependencies": {
           "AWSSDK.Core": "3.5.1.13",
@@ -797,7 +797,7 @@
           "lib/netstandard2.0/PDFClown.dll": {}
         }
       },
-      "log4net/2.0.8": {
+      "log4net/2.0.10": {
         "type": "package",
         "dependencies": {
           "System.AppContext": "4.1.0",
@@ -6982,16 +6982,16 @@
         "lib/netstandard1.3/Iesi.Collections.xml"
       ]
     },
-    "Kentico.Xperience.Libraries/13.0.173": {
+    "Kentico.Xperience.Libraries/13.0.178": {
       "sha512": "tWsi+XuKJsGfU/SmU5n8xUJ1dL73Vg36tHwYfnpACOmUAFwqZ5HuetKi2C94IPYCaiOF7pdGOllRMwf6NIIfYw==",
       "type": "package",
-      "path": "kentico.xperience.libraries/13.0.173",
+      "path": "kentico.xperience.libraries/13.0.178",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LicenseAgreement.txt",
-        "kentico.xperience.libraries.13.0.173.nupkg.sha512",
+        "kentico.xperience.libraries.13.0.178.nupkg.sha512",
         "kentico.xperience.libraries.nuspec",
         "lib/net48/CMS.Activities.Loggers.dll",
         "lib/net48/CMS.Activities.Loggers.xml",
@@ -7491,10 +7491,10 @@
         "microsoft.aspnet.webapi.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.App.Runtime.linux-x64/8.0.0": {
+    "Microsoft.AspNetCore.App.Runtime.linux-x64/8.0.14": {
       "sha512": "mUA3OfRmS059yob8ZKeaDjkFlGT1zveiWx5O/UXxYLrsQNBY6HINIlDFvzPOZj8Uesp2fCNOPflMucMAFcqlPg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.app.runtime.linux-x64/8.0.0",
+      "path": "microsoft.aspnetcore.app.runtime.linux-x64/8.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7651,7 +7651,7 @@
     "Microsoft.AspNetCore.App.Runtime.win-x86/3.0.0": {
       "sha512": "1UE12ECJMICpzY2VJYGwwPkcT2Jx0Irt/nparSd5JBbjZDu2vH8fJL3JQ+zGW0qJIWiEIcbX6Kywhp/b5pwVsA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.app.runtime.win-x86/3.0.0",
+      "path": "microsoft.aspnetcore.app.runtime.win-x86/3.1.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -17998,9 +17998,9 @@
       "WindowsAzure.Storage >= 9.3.3",
       "Xamarin.Forms >= 4.5.0.617",
       "csla >= 5.5.4",
-      "dotnetnuke.core >= 7.4.0",
+      "dotnetnuke.core >= 7.4.1.280",
       "fastJSON >= 2.4.0.4",
-      "kentico.xperience.libraries >= 13.0.173",
+      "kentico.xperience.libraries >= 13.0.178",
       "log4net >= 2.0.8",
       "microsoft.aspnetcore.app.runtime.linux-x64 >= 8.0.0",
       "microsoft.aspnetcore.app.runtime.win-x86 >= 3.0.0",
