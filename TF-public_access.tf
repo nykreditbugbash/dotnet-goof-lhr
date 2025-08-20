@@ -55,7 +55,7 @@ resource "aws_mq_broker" "mq" {
   host_instance_type = "mq.t2.micro"
   security_groups    = [aws_security_group.test.id]
 
-  publicly_accessible = true
+  publicly_accessible = false
 
   user {
     username = "ExampleUser"
@@ -65,7 +65,7 @@ resource "aws_mq_broker" "mq" {
 
 resource "aws_neptune_cluster_instance" "neptune" {
   count              = 2
-  publicly_accessible = true
+  publicly_accessible = false
   cluster_identifier = aws_neptune_cluster.default.id
   engine             = "neptune"
   instance_class     = "db.r4.large"
@@ -89,5 +89,5 @@ resource "aws_redshift_cluster" "redshift" {
   master_password    = "Mustbe8characters"
   node_type          = "dc1.large"
   cluster_type       = "single-node"
-  publicly_accessible = true
+  publicly_accessible = false
 }
