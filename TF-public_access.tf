@@ -1,5 +1,5 @@
 resource "aws_db_instance" "db" {
-  publicly_accessible  = true
+  publicly_accessible  = false
   allocated_storage    = 20
   storage_type         = "gp2"
   engine               = "mysql"
